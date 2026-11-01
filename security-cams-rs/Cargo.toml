@@ -1,0 +1,7 @@
+[package]
+name = "security-cams-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ultralytics-inference = { version = "0.0.x", features = ["cuda"] }
